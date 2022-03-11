@@ -12,7 +12,7 @@
     <string name="menu_nav_alarm">Alarmă</string>
     <string name="menu_nav_reminder">Reamintire evenimente</string>
     <string name="menu_nav_dnd">Modul Nu deranja</string>
-    <string name="menu_nav_watch_face">Față de ceas</string>
+    <string name="menu_nav_watch_face">Cadran ceas</string>
     <string name="menu_nav_weather">Vremea</string>
     <string name="menu_nav_touch">Atingere</string>
     <string name="menu_nav_more">Mai Mult</string>
@@ -66,18 +66,18 @@
     <string name="mi_band_setting_auth_standalone">Standalone</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
 
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
+    <string name="mi_band_setting_auth_key">Cod de autentificare</string>
+    <string name="mi_band_setting_auth_key_help">Introdu oricare 4 numere</string>
+    <string name="mi_band_setting_auth_request">Solicitare cod</string>
     <string name="mi_band_setting_auth_pair">Asociază</string>
-    <string name="mi_band_setting_auth_unpair">Unpair</string>
+    <string name="mi_band_setting_auth_unpair">Dezasociază</string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+    <string name="message_auth_request">Este asociat. Dacă nu cunoașteți codul, folosiți Dezasociază</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Zepp Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Adăsați butonul %1$s pentru a asocia</string> <!-- %1$s = Mi Band 3, Zepp Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s este asociat cu succes</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s a esuat asocierea</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Cod de autentificare eronat</string>
 
     <string name="pref_disconnect_device">Deconectare</string>
 
@@ -88,10 +88,10 @@
     <string name="mi_band_setting_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
     <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
     <string name="mi_band_setting_idle_alert">Alerte de inactivitate</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest (12:00-14:00)</string>
+    <string name="mi_band_setting_idle_alert_time">Timp de inactivitate</string>
+    <string name="mi_band_setting_idle_alert_dnd">Nu deranja în timpul de odihnă (12:00-14:00)</string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories</string>
+    <string name="mi_band_setting_profile">Aceste date sunt necesare pentru a calcula corect numărul de pași, distanța și caloriile consumate</string>
     <string name="mi_band_setting_gender">Sex</string>
     <string name="mi_band_setting_gender_male">Masculin</string>
     <string name="mi_band_setting_gender_female">Feminin</string>
@@ -115,11 +115,11 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected_have_notif_interval_title">Interval repetare reamintiri</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+    <string name="pref_connected_have_notif_interval_summary">Functia semnal de notificare/reamintire foloseste această temporizare</string>
 
     <string name="pref_synchronization">Sincronizează</string>
     <string name="pref_synchronization_fetch">Activități・Puls</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
+    <string name="pref_synchronization_fetch_interval">Frecvența de sinconizare</string>
 
     <string name="pref_battery_phone">Bateria telefonului</string>
     <string name="pref_battery_phone_summary">Notificări nivel baterie scăzut și complet</string>
@@ -140,9 +140,9 @@
     <string name="pref_language_title">Limbă</string>
 
     <string name="pref_menu">Meniu</string>
-    <string name="pref_cat_menu">Main menu bar</string>
-    <string name="pref_menu_item_2">Second menu item</string>
-    <string name="pref_menu_item_3">Third menu item</string>
+    <string name="pref_cat_menu">Bara de meniu principală</string>
+    <string name="pref_menu_item_2">Al doilea element de meniu</string>
+    <string name="pref_menu_item_3">Al treilea element de meniu</string>
 
     <string name="pref_diagnostic">Diagnostic</string>
     <string name="pref_cat_diagnostic_closing_protection">Protecția împotriva închiderii</string>
@@ -166,13 +166,13 @@
 
     <string name="message_app_chooser_no_selected">Selectează o aplicație</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in free mode</string>
+    <string name="message_free_counter">Doar o setare poate fi folosită în modul gratuit</string>
 
     <string name="message_notification_free_groups">Se pot folosi până la %1$,d groupuri în modul normal</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_app">Doar o aplicatie poate fi folosită în modul gratuit</string>
+    <string name="message_notification_free_apps">Doar %1$,d aplicații pot fi folosite în modul gratuit</string>   <!-- %1$s = 2 or more  -->
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+    <string name="message_notification_free_text">Doar un text poate fi înregistrat în modul gratuit</string>
 
     <string name="message_time_alarm_free_counter">Pot fi utilizate până la 1 alarme în modul normal</string>
     <string name="message_time_alarm_max_counter">Se pot folosi maxim %1$d alarme</string>
@@ -185,11 +185,11 @@
     <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_feature_is_not_supported">%1$s nu suportă această caracteristică</string>
     <string name="message_general_error">Setarea a eșuat (conexiunea s-a pierdut), încearcă din nou</string>
     <string name="message_internet_error">Lipsă conexiune la internet</string>
     <string name="message_gps_enable">Activează GPS</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+    <string name="message_location_enable">Enable the location info permission Permite accesul la poziționarea geografică</string>
 
     <string name="message_in_progress">În curs…</string>
     <string name="message_no_data">Nu sunt date disponibile</string>
@@ -236,8 +236,8 @@
     <string name="notification_group_screen_off">Semnal numai când ecranul este oprit</string>
     <string name="notification_group_repeat_title">Repeată semnale</string>
     <string name="notification_group_wakelock">Aprinde ecranul telefonului</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_grouped_display_title">Arată setările pentru notificările de grup</string>
+    <string name="notification_group_grouped_sort_order_title">Ordinea pentru notificările de grup</string>
 
     <string name="notification_group_filter">Filtrează notificări</string>
     <string name="notification_group_filter_title">Titlul filtrului</string>
@@ -255,7 +255,7 @@
     <string name="notification_group_correction_title">Corectare titlu</string>
     <string name="notification_group_correction_content">Corectare conținut</string>
     <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_hint">Indiferent caractere mari/mici</string>
     <string name="notification_group_correction_items">Textul de corectat</string>
     <string name="notification_group_correction_find">Caută</string>
     <string name="notification_group_correction_replace">Înlocuiește cu</string>
@@ -326,9 +326,9 @@
     <!-- Sleep monitoring -->
     <string name="sleep_details">Detalii somn</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
+    <string name="sleep_awake">Treaz</string>
+    <string name="sleep_light">Usor</string>
+    <string name="sleep_deep">Adânc</string>
 
 
     <!-- Pulse -->
@@ -336,21 +336,21 @@
 
     <string name="pulse_continuous_title">Măsurare continuă a pulsului</string>
 
-    <string name="heart_rate_warning_title">Heart rate warning</string>
-    <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Low heart rate</string>
-    <string name="high_heart_rate">High heart rate</string>
+    <string name="heart_rate_warning_title">Atenționare ritm cardiac</string>
+    <string name="low_and_high_heart_rates">Limite ritm cardiac</string>
+    <string name="low_heart_rate">Ritm cardiac mic</string>
+    <string name="high_heart_rate">Ritm cardiac mare</string>
 
 
     <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Blood oxygen details</string>
+    <string name="blood_oxygen_details">Detalii oxigen în sânge</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
+    <string name="blood_oxygen_level_measurement">Măsurarea nivelului de oxicen în sânge</string>
+    <string name="measurement_interval">Intervalul de masurare</string>
 
 
     <!-- Workout -->
-    <string name="workout_details">Workout</string>
+    <string name="workout_details">Exerciții fizice</string>
 
 
     <!-- Alarm -->
@@ -391,13 +391,13 @@
 
 
     <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Față de ceas</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
+    <string name="watch_face_tab_watch_faces">Cadran de ceas</string>
+    <string name="watch_face_tab_watch_face_custom">Fișiere personalizate</string>
     <string name="watch_face_tab_watch_face_editor">Editor</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_upload_title">Schimbare față de ceas</string>
-    <string name="watch_face_tool_title">Tools</string>
+    <string name="watch_face_download_title">Descarcâ cadran de ceas</string>
+    <string name="watch_face_upload_title">Schimbare cadran de ceas</string>
+    <string name="watch_face_tool_title">Instrumente</string>
 
     <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
 
@@ -419,15 +419,15 @@
     <string name="action_chart_layout_2_columns">2-column layout</string>
     <string name="action_chart_layout_3_columns">3-column layout</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
+    <string name="watch_face_edit_dial">Cadran</string>
     <string name="watch_face_edit_preview">Preview</string>
     <string name="watch_face_edit_hour_digital">Ora</string>
     <string name="watch_face_edit_minute_digital">Minut</string>
-    <string name="watch_face_edit_second_digital">Al doilea</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
+    <string name="watch_face_edit_second_digital">Secunda</string>
+    <string name="watch_face_edit_hour_analog">Orar</string>
+    <string name="watch_face_edit_minute_analog">Minutar</string>
+    <string name="watch_face_edit_second_analog">Secundar</string>
+    <string name="watch_face_edit_axis">Axa de rotație</string>
     <string name="watch_face_edit_hour_minute_separator">Oră și minut separator</string>
     <string name="watch_face_edit_month">Lună</string>
     <string name="watch_face_edit_month_name">Numele lunii.</string>
@@ -446,16 +446,16 @@
     <string name="watch_face_edit_steps">Pași</string>
     <string name="watch_face_edit_steps_image">Imagine de pași</string>
     <string name="watch_face_edit_distance">Distanță</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
+    <string name="watch_face_edit_distance_image">Pictograma distanță</string>
     <string name="watch_face_edit_calories">Calorii</string>
-    <string name="watch_face_edit_calories_image">Imagine de calorii</string>
-    <string name="watch_face_edit_heart_rate">Heart rate</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+    <string name="watch_face_edit_calories_image">Pictograma calorii</string>
+    <string name="watch_face_edit_heart_rate">Puls</string>
+    <string name="watch_face_edit_heart_rate_image">Pictograma puls</string>
 
     <string name="watch_face_edit_color">Culoare</string>
     <string name="watch_face_edit_font_family">Font</string>
     <string name="watch_face_edit_font_size">Marimea fontului</string>
-    <string name="watch_face_edit_character">Character</string>
+    <string name="watch_face_edit_character">Caracter</string>
     <string name="watch_face_edit_image">Imagine</string>
     <string name="watch_face_edit_image_png_jpeg">Imagine (.png, .jpeg)</string>
     <string name="watch_face_edit_image_png">Imagine (.png)</string>
