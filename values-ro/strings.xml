@@ -903,12 +903,12 @@
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d seconde</item>
-        <item quantity="one">%d secondă</item>
-        <item quantity="two">%d seconde</item>
-        <item quantity="few">%d seconde</item>
-        <item quantity="many">%d seconde</item>
-        <item quantity="other">%d seconde</item>
+        <item quantity="zero">%d secunde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="two">%d secunde</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="many">%d secunde</item>
+        <item quantity="other">%d secunde</item>
     </plurals>
 
 </resources>
